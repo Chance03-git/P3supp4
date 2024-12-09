@@ -1,0 +1,14 @@
+# Express POST Endpoint for Content
+
+## Description
+This endpoint receives a POST request with a JSON body containing a `content` field. It responds with the `content` field from the request body.
+
+## Endpoint
+**Method**: POST  
+**URL**: `/`
+
+**Request Body**:
+- JSON object with a `content` field (e.g., `{ "content": "Hello, world!" }`)
+
+**Response**:
+- JSON object with the same `content` field (e.g., `{ "content": "Hello, world!" }`)
